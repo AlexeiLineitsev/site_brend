@@ -1,0 +1,22 @@
+.logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.logo__name {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: $colorText;
+
+  margin-left: 12px;
+}
+
+.logo__name--color {
+  font-weight: 900;
+  color: $primary;
+}
+

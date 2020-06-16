@@ -1,0 +1,122 @@
+.header {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.17);
+  background-color: $white;
+  border: 1px solid $colorHeader;
+}
+
+.header__wrap {
+  display: flex;
+  height: 114px;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: 37px;
+}
+
+.header__buy {
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+
+.header__BrowseBtn {
+@include button_header();
+}
+
+.header__input {
+  width: 280px;
+  background-color: $white;
+  border: 1px solid $colorBorder;
+
+  padding: 14px 15px;
+
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #a4a4a4;
+}
+
+.header__SearchBtn {
+  @include button_header() {
+    padding: 14px 11px;
+    border-radius: 0 3px 3px 0;
+  };
+}
+
+
+.header__myaccBtn {
+  @include buttonMainColor();
+}
+
+.header__buySvg {
+  height: 34px;
+  width: 32px;
+  margin-right: 26px;
+
+  &:hover {
+    cursor: pointer;
+    animation: 0.6s ease-in-out 0s 1 normal both running rotate-center;
+  }
+}
+
+
+
+@media (max-width: 980px) {
+  .header__input {
+    width: 230px;
+  }
+}
+
+@media (max-width: 880px) {
+  .header__input {
+    width: 150px;
+  }
+}
+
+@media (max-width: 780px) {
+  .header__input {
+    width: 100px;
+  }
+}
+
+@media (max-width: 740px) {
+
+  .header__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+    height: auto;
+  }
+
+  .header__search {
+    grid-column: -1/1;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .header__buy {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .header__input {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+.banner {
+  background: url('../img/banner.jpg') no-repeat right top;
+  background-size: cover;
+}
+
+.banner__wrap {
+  padding-top: 225px;
+  padding-bottom: 300px;
+  padding-left: 37px;
+}
+
+.banner__name {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    background-color: $primary;
+    top: 13px;
+    left: -23px;
+    bottom: 11px;  }
+}
+
+.banner__text {
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: $colorText;
+  white-space: nowrap;
+}
+
+.banner__text-small {
+  font-size: 40px;
+}
+
+.banner__text-color {
+  color: $primary;
+}
+
+
+
