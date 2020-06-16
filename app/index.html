@@ -2,19 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>BREND</title>
-    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
+<header class="header">
+    <div class="header__wrap wrap">
+        <div class="logo header__logo">
+            <img src="img/site_logo.png" alt="Логотип" class="logo__img">
+            <span class="logo__name">BRAN<span class="logo__name--color">D</span></span>
+        </div>
+        <div class="header__search">
+            <button class="header__BrowseBtn">Browse <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+            <input type="text" class="header__input" placeholder="Search for Item...">
+            <button class="header__SearchBtn"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <div class="header__buy">
+            <svg class="header__buySvg">
+                <use xlink:href="img/sprite/sprite.svg#Shopping_card"></use>
+            </svg>
+            <button class="header__myaccBtn">My Account <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+        </div>
+    </div>
+
+</header>
+
+<nav class="menu">
+    <div class="menu__wrap wrap">
+        <ul class="menu__list">
+            <li class="menu__element"><a href="#" class="menu__link">Home</a></li>
+            <li class="menu__element"><a href="#" class="menu__link">Man</a></li>
+            <li class="menu__element"><a href="#" class="menu__link">Women</a></li>
+            <li class="menu__element"><a href="#" class="menu__link">Kids</a></li>
+            <li class="menu__element"><a href="#" class="menu__link">Accoseriese</a></li>
+            <li class="menu__element"><a href="#" class="menu__link">Featured</a></li>
+            <li class="menu__element"><a href="#" class="menu__link">Hot Deals</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="banner">
+    <div class="banner__wrap wrap">
+        <div class="banner__name">
+            <span class="banner__text">
+                THE BRAND <br>
+                <span class="banner__text-small">OF LUXERIOUS
+                    <span class="banner__text-color">FASHION</span></span>
+            </span>
+        </div>
+    </div>
+</section>
 
 
+<section class="category">
+    <div class="categoty__wrap wrap">
 
+        <ul class="category__list">
 
+            <li class="category__element">
+                <div class="category__info">
+                    <p class="category__text">hOT dEAL <br>
+                        <span class="category__text-color">FOR MEN</span></p>
+                </div>
+            </li>
+            <li class="category__element">
+                <div class="category__info">
+                    <p class="category__text">30% offer <br>
+                        <span class="category__text-color">women</span></p>
+                </div>
+            </li>
+            <li class="category__element">
+                <div class="category__info">
+                    <p class="category__text">new arrivals <br>
+                        <span class="category__text-color">FOR kids</span></p>
+                </div>
+            </li>
+            <li class="category__element">
+                <div class="category__info">
+                    <p class="category__text">LUXIROUS & trendy <br>
+                        <span class="category__text-color">ACCESORIES</span></p>
+                </div>
+            </li>
 
+        </ul>
 
+    </div>
+</section>
 <script src="js/main.js"></script>
-<script src="js/libs.min.js"></script>
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<!--<script src="node_modules/jquery-ui/"></script>-->
 </body>
 </html>
