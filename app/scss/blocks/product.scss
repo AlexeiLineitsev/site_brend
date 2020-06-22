@@ -28,7 +28,7 @@
     opacity: 0;
     background-color: rgba(58, 56, 56, 0.83);
     z-index: 0;
-    transition-property: background-color, opacity;
+    transition-property: opacity;
     transition-duration: 500ms;
   }
 }
@@ -96,6 +96,11 @@
   color: $colorText;
   margin: 0;
   padding-bottom: 17px;
+}
+
+.product__price-wrapper {
+display: flex;
+  justify-content: space-between;
 }
 
 .product__card-price {

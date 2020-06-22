@@ -16,8 +16,8 @@
 
   &::after {
     content: '';
-    display: block;
     height: 3px;
+    display: block;
     background-color: transparent;
     transition-property: background-color;
     transition-duration: 500ms;
