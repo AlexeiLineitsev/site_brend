@@ -1,5 +1,4 @@
 
-
 .subscribe {
   background: url("../img/subscribe_bg.jpg") no-repeat center;
   background-size: cover;
@@ -20,6 +19,7 @@
   text-align: center;
   margin-left: 165px;
 }
+
 .subscribe__info {
   max-width: 390px;
   margin-left: 28px;
@@ -103,7 +103,7 @@
 }
 
 .subscribe__button {
-  @include buttonMainColor{
+  @include buttonMainColor {
     border-radius: 0 23px 23px 0;
   }
 }
@@ -120,7 +120,7 @@
 
   &:not(:first-child) {
     margin-left: 13px;
-}
+  }
 }
 
 .subscribe__line-active {
@@ -129,11 +129,11 @@
 
 
 @media (max-width: 780px) {
-    .subscribe {
-      background: none;
-      background-color: rgba(242,242,242,0.5);
-      height: auto;
-    }
+  .subscribe {
+    background: none;
+    background-color: rgba(242, 242, 242, 0.5);
+    height: auto;
+  }
 
   .subscribe__wrap {
     flex-direction: column;
@@ -149,7 +149,4 @@
     flex-direction: column;
     align-items: center;
   }
-
-
-
 }
