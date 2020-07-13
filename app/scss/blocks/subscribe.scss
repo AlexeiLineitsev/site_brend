@@ -141,6 +141,7 @@
 
   .subscribe__choose {
     justify-content: center;
+    padding-top: 45px;
   }
 
   .subscribe__enterEmail {
@@ -148,5 +149,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 45px;
   }
 }
