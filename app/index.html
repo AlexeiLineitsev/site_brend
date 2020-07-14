@@ -6,6 +6,8 @@
     <title>BREND</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="js/main.js"></script>
+
 </head>
 <body>
 <div class="main-content">
@@ -17,8 +19,67 @@
                     <span class="logo__name">BRAN<span class="logo__name--color">D</span></span>
                 </div>
                 <div class="header__search">
-                    <button class="header__BrowseBtn">Browse <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </button>
+                    <div class="header__button-wrap">
+                        <button onclick="myFunction()" class="header__BrowseBtn">Browse <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdownMenu header__dropdownMenu">
+                            <div class="dropdownMenu__wrap">
+
+                                <div class="dropdownMenu__submenu">
+                                    <ul class="dropdownMenu__list">
+                                        <span class="dropdownMenu__title">Women</span>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Tees/Tank
+                                            tops</a></li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Shirts/Polos</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#"
+                                                                           class="dropdownMenu__link">Sweaters</a></li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Sweatshirts/Hoodies</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#"
+                                                                           class="dropdownMenu__link">Blazers</a></li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Jackets/vests</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdownMenu__submenu">
+                                    <ul class="dropdownMenu__list">
+                                        <span class="dropdownMenu__title">Men</span>
+                                        <li class="dropdownMenu__items"><a href="#"
+                                                                           class="dropdownMenu__link">Dresses</a></li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Tops</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Sweaters/Knits</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Jackets/Coats</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#"
+                                                                           class="dropdownMenu__link">Blazers</a></li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Denim</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Leggings/Pants</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Leggings/Pants</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Accessories</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Bags/Purses</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Swimwear/Underwearc</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#"
+                                                                           class="dropdownMenu__link">Nightwear</a></li>
+                                        <li class="dropdownMenu__items"><a href="#" class="dropdownMenu__link">Shoes</a>
+                                        </li>
+                                        <li class="dropdownMenu__items"><a href="#"
+                                                                           class="dropdownMenu__link">Beauty</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                     <input type="text" class="header__input" placeholder="Search for Item...">
                     <button class="header__SearchBtn"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </div>
@@ -401,6 +462,6 @@
 <!--    </div>-->
 <!--</div>-->
 
-<script src="js/main.js"></script>
+
 </body>
 </html>
