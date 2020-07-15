@@ -115,11 +115,15 @@
 
 .subscribe__line {
   width: 38px;
-  height: 4px;
+  height: 6px;
   background-color: $subsInput;
 
   &:not(:first-child) {
     margin-left: 13px;
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 }
 
